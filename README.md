@@ -7,10 +7,6 @@ of [Picnic: Supermarket on Wheels](https://github.com/PicnicSupermarket)!
 This puzzle is like one day of Advent of Code, but with a Picnic twist. Get ready to dive into some fun
 programming challenges inspired by Picnic's unique operations.
 
-> [!IMPORTANT]
-> Want help with your own advent of code solutions? Come join us at Picnic's HQ on Monday 8th December.
-> Check out the invite on [LinkedIn](https://www.linkedin.com/events/codesession-adventofcode7401569672648683520).
-
 <img src="./img/epv.png" width="500">
 
 ---
