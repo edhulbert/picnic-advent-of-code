@@ -11,7 +11,7 @@ programming challenges inspired by Picnic's unique operations.
 
 ---
 
-# 🎄 Picnic Trip Day: The Tote Conveyor 🎄
+# 🎄 Picnic Day Trip: The Tote Conveyor 🎄
 
 You are excited to be on a special field trip to the **Picnic Fulfillment Center (FC)**. It's a marvel of modern
 logistics: conveyor belts whirring overhead, shoppers picking groceries into red and black totes, and the fleet
