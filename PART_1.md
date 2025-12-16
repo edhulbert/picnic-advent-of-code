@@ -72,4 +72,12 @@ In this example, the minimum cost is **60**.
 
 Your answer: _______________
 
-Did you get it right? Proceed to [part 2](./PART_2.md)
+
+<details>
+<summary>Click to reveal the answer</summary>
+
+> The answer is **1710**
+
+Did you get it right? Here's your ⭐️ and proceed to [part 2](./PART_2.md)
+
+</details>
