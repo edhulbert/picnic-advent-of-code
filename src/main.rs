@@ -8,13 +8,10 @@ fn main() {
     let mut stack: Vec<&Tote> = vec![];
 
     totes.iter().for_each(|tote| {
-        if stack.is_empty() || tote.can_add(stack.last().unwrap()) {
-            stack.push(tote);
-        } else {
+        if !(stack.is_empty() || tote.can_add(stack.last().unwrap())) {
             score += score_and_clear_stack(&mut stack);
-            stack.clear();
-            stack.push(tote);
         }
+        stack.push(tote);
     });
 
     score += score_stack(&stack);
@@ -33,10 +30,10 @@ fn score_stack(stack: &[&Tote]) -> usize {
         1 => 50,
         2 => 25,
         5 => 35,
-        x if x % 4 == 0 => 0,
         x if x % 4 == 1 => 30,
         x if x % 4 == 2 => 20,
-        _ => 10,
+        x if x % 4 == 3 => 10,
+        _ => 0,
     }
 }
 
